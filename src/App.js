@@ -22,6 +22,7 @@ import DataGrid, {
 } from "devextreme-react/data-grid";
 import "devextreme/dist/css/dx.common.css";
 import "devextreme/dist/css/dx.light.css";
+import "./dx.material.custom-scheme.css";
 const dataSource = generateData(100000);
 
 class App extends React.Component {
